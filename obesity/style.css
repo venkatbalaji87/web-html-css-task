@@ -1,0 +1,19 @@
+#title{
+    background-color: darkslategray;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    height: 420px;
+    background-color: green;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3+p {display: inline;}
