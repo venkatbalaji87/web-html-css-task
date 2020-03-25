@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+.homeImage {
+  border-radius: 50%;
+  margin: 30px;
+  margin-bottom: -20px;
+}
+
+.image {
+  background-color: darkgray;
+  padding-left: 450px;
+}
+
+.vl {
+  border-left: 4px solid lightblue;
+  height: 930px;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.imageBackground {
+  background-color: darkgray;
+  margin-bottom: 30px;
+}
+
+#text {
+  padding-bottom: 20px;
+}
+
+h2 {
+  width: 100%;
+  height: 12px;
+  text-align: center;
+  border-bottom: 15px solid lightblue;
+  line-height: 0.9em;
+  margin: 10px 0 20px;
+}
+
+h2 span {
+  background: lightgreen;
+  padding: 20 15px;
+  margin: 12px;
+}
+
+#address {
+  text-align: justify;
+  padding-left: 130px;
+  font-size: 20px;
+}
+
+hr {
+  border-bottom: 4px lightblue;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.border-right {
+  border-right: 6px solid lightblue;
+  height: 1000px;
+}
+
+li {
+  padding-top: 20px;
+}
